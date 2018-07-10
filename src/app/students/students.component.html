@@ -1,0 +1,18 @@
+<div class="container">
+<table class="col-xs-12 table">
+  <thead>
+  <tr >
+    <td> ID </td>
+    <td> Student Name </td>
+    <td> Roll no. </td>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of studentsdata; let i = index" (click)="collectdata(i,item.name, item.rollno, item.courses)">
+      <td> {{item.id}} </td>
+      <td> {{item.name}} </td>
+      <td> {{item.rollno}} </td>
+    </tr>
+  </tbody>
+</table>
+</div>

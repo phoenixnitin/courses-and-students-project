@@ -1,0 +1,19 @@
+<div class="container">
+  <h4><b>{{studentsdata[stuID].name}}</b> has registered for following courses:</h4>
+<table class="col-xs-12 table">
+  <thead>
+  <tr>
+    <td> ID </td>
+    <td> Course Name </td>
+    <td> Course Number </td>
+    <td> Credits </td>
+  </tr>
+  </thead>
+  <tr *ngFor="let item of courseregisteredarray">
+    <td> {{coursesdata[item].id}} </td>
+    <td> {{coursesdata[item].name}} </td>
+    <td> {{coursesdata[item].courseno}} </td>
+    <td> {{coursesdata[item].credits}} </td>
+  </tr>
+</table>
+</div>

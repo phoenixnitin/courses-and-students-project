@@ -1,0 +1,48 @@
+{"data":{
+  "studentsdata" : [
+    {
+      "id":1,
+      "name": "Nitin Kumar",
+      "rollno": "EP14B018",
+      "courses":["PH1010","MA1010"]
+    },
+    {
+      "id":2,
+      "name": "Vikas Raju",
+      "rollno": "EP14B016",
+      "courses":["MA1010","EN1010"]
+    }
+  ],
+  "coursesdata" : [
+    {
+      "id":1,
+      "name": "Physics",
+      "courseno": "PH1010",
+      "credits": 3
+    },
+    {
+      "id":2,
+      "name": "Maths",
+      "courseno": "MA1010",
+      "credits": 4
+    },
+    {
+      "id":3,
+      "name": "Chemistry",
+      "courseno": "CY1010",
+      "credits": 2
+    },
+    {
+      "id":4,
+      "name": "English",
+      "courseno": "EN1010",
+      "credits": 3
+    }
+  ],
+  "courseMap":{
+    "PH1010":0,
+    "MA1010":1,
+    "CY1010":2,
+    "EN1010":3
+  }
+}}
